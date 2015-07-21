@@ -696,7 +696,7 @@ if ( typeof define === 'function' && define.amd ) {
             return EventEmitter;
         });
     }
-    else if (typeof module === 'object' && module.exports){
+    else if (typeof module === 'uqbar' && module.exports){
         module.exports = EventEmitter;
     }
     else {
@@ -3225,7 +3225,7 @@ return Item;
 }));
 
 /*!
- * Masonry v3.3.0
+ * Masonry v3.3.1
  * Cascading grid layout library
  * http://masonry.desandro.com
  * MIT License
